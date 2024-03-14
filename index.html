@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrink-It - Your URL Shortening Service</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"/>
+    <style>
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .feature {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .feature img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .navbar-nav {
+            width: 100%;
+            text-align: center;
+        }
+
+        .navbar-nav .nav-item {
+            margin: 0 10px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffc107;
+        }
+
+        .hero {
+            background-color: darkgrey;
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .icon {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Shrink-It</h1>
+    <p>Your URL Shortening Service</p>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="hero">
+
+    <div style="width: 40vw;">
+        <!-- description about a shorting url service -->
+        <h1>Shorten URLs and Track Performance</h1>
+        <p>Shrink-It is a URL shortening service that allows you to shorten any URL and track its performance.</p>
+
+        <!-- create a button to get started -->
+        <a href="#" class="btn btn-info btn-lg">Get Started</a>
+    </div>
+
+    <!-- create a floating image with shadow and positioned near the right -->
+    <img src="./assets/images/img-1.png" alt="Shorten URLs"
+         style="width: 40vw; box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); border-radius: 10px;">
+
+</div>
+
+<div class="container mt-5">
+    <section id="features">
+        <h2 class="text-center mb-5">Key Features</h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature">
+                    <img src="./assets/images/link.png" alt="Customizable Short URLs" class="mb-3 w-50">
+                    <h3>Customizable Short URLs</h3>
+                    <p>Customize your shortened URLs to reflect your brand or message.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature">
+                    <img src="./assets/images/statistics.png" alt="Detailed Analytics" class="mb-3 w-50">
+                    <h3>Detailed Analytics</h3>
+                    <p>Track the performance of your shortened URLs with detailed analytics.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature">
+                    <img src="./assets/images/reliability.png" alt="Secure and Reliable" class="mb-3 w-50">
+                    <h3>Secure and Reliable</h3>
+                    <p>Rest assured knowing that your URLs are securely stored and accessible only to authorized
+                        users.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="text-center mb-5">About</h2>
+        <div class="container">
+            <div class="alert alert-info" style="text-indent: 50px">
+                <p>
+                    Ever since I started working in web development, I've been fascinated by the power of simplicity and
+                    efficiency in user experiences. I've always believed that technology should make our lives easier,
+                    and
+                    that
+                    belief is what inspired me to create Shrink-It, a URL shortening service.
+
+                    The idea came to me when I realized how cumbersome and unmanageable long URLs can be, especially in
+                    today's
+                    fast-paced digital world. I saw an opportunity to simplify the process of sharing links and make it
+                    more
+                    user-friendly for everyone.
+
+                    With Shrink-It, my goal is to provide a solution that not only shortens URLs but also offers
+                    customization
+                    options to reflect the brand or message of the user. Whether it's sharing links on social media, in
+                    emails,
+                    or on websites, Shrink-It streamlines the process, making it easier and more efficient for everyone
+                    involved.
+
+                    I'm excited to see how Shrink-It can positively impact the way people share information online, and
+                    I'm
+                    committed to continuously improving and expanding its features to meet the evolving needs of our
+                    users.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="alert alert-info" style="text-indent: 50px">
+                <p>[Insert link to the GitHub repository for the project here.]</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <div class="container d-flex justify-content-between">
+        <div class="container">
+            <p>Connect with me on:</p>
+            <div class="container d-flex flex-row justify-content-around">
+                <div>
+                    <i class="icon fab fa-facebook"></i>
+                    <a href="https://www.facebook.com/bzd.med.ali" target="_blank">Facebook</a>
+                </div>
+                <div>
+                    <i class="icon fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/bouzidi-med-ali/" target="_blank">LinkedIn</a>
+                </div>
+                <div>
+                    <i class="icon fab fa-github"></i>
+                    <a href="https://github.com/MedAliBouzidi" target="_blank">GitHub</a>
+                </div>
+                <div>
+                    <i class="icon fab fa-twitter"></i>
+                    <a href="https://twitter.com/__med_ali__" target="_blank">Twitter</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <p>Github Repository:</p>
+            <a href="" target="_blank">Shrink-It</a>
+
+        </div>
+
+    </div>
+    <p class="mt-3">&copy; 2024 Your Name</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
